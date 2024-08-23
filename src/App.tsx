@@ -6,26 +6,33 @@ const width = 1440;
 const height = 810;
 const margin = 40;
 
+type Row = {
+  "Weapon Name": string;
+  Translated: string;
+  "Teammate Rank": string;
+  "Enemy Rank": string;
+};
+
 const nameToId = Object.entries(weaponsJson).map(([key, value]) => {
   return [value, key.replace("MAIN_", "")];
 });
 
 function App() {
   let svgRef: SVGSVGElement | undefined;
-  const [data, setData] = createSignal();
-  const [hovered, setHovered] = createSignal();
+  const [data, setData] =
+    createSignal<{ x: number; y: number; name: string; img: string }[]>();
 
   d3.csv("/data.csv").then((csv) => {
     if (!svgRef) return;
 
     setData(
-      csv.map((row) => {
-        const id = nameToId.find(([key]) => key === row.name)?.[1];
+      csv.map((row: Row) => {
+        const id = nameToId.find(([key]) => key === row["Translated"])?.[1];
 
         return {
-          x: parseFloat(row.teammate),
-          y: parseFloat(row.opponent),
-          name: row.name,
+          x: parseFloat(row["Teammate Rank"]) - 0.009148,
+          y: parseFloat(row["Enemy Rank"]) + 0.009148,
+          name: row["Translated"],
           img: `https://sendou.ink/static-assets/img/main-weapons/${id}.png`,
         };
       })
@@ -34,26 +41,24 @@ function App() {
 
   createEffect(() => {
     const max = Math.max(
-      ...d3.extent(data(), (d) => d.x).map((v) => Math.abs(v! - 0.5)),
-      ...d3.extent(data(), (d) => d.y).map((v) => Math.abs(v! - 0.5))
+      ...d3.extent(data()!, (d) => d.x).map((v) => Math.abs(v! - 0.5)),
+      ...d3.extent(data()!, (d) => d.y).map((v) => Math.abs(v! - 0.5))
     );
 
     const x = d3
       .scaleLinear()
       .domain([0.5 - max, 0.5 + max])
-      .nice()
       .range([0 + 40, width - 40]);
 
     const y = d3
       .scaleLinear()
       .domain([0.5 - max, 0.5 + max])
-      .nice()
       .range([0 + 40, height - 40]);
 
     const svg = d3
-      .select(svgRef)
+      .select(svgRef!)
       .attr("viewBox", [0, 0, width, height])
-      .attr("style", `width: ${width}px; height: ${height}px;`);
+      .attr("style", `min-width: ${width}px; min-height: ${height}px;`);
     svg
       .append("g")
       .attr("transform", `translate(0,${height - margin})`)
@@ -128,12 +133,12 @@ function App() {
     svg
       .append("g")
       .selectAll("image")
-      .data(data())
+      .data(data()!)
       .join("image")
-      .attr("x", (d) => x(d.x) - 16)
-      .attr("y", (d) => y(d.y) - 16)
-      .attr("height", "32px")
-      .attr("width", "32px")
+      .attr("x", (d) => x(d.x) - 12)
+      .attr("y", (d) => y(d.y) - 12)
+      .attr("height", "24px")
+      .attr("width", "24px")
       .attr("href", (d) => d.img);
     // .attr(
     //   "style",
@@ -142,19 +147,7 @@ function App() {
     // .on("mouseover", (event, d) => setHovered(d.name))
     // .on("mouseout", (event, d) => setHovered());
   });
-  return (
-    <div
-      style={{
-        width: "100%",
-        margin: "auto",
-        display: "flex",
-        "align-items": "center",
-        "justify-content": "center",
-      }}
-    >
-      <svg ref={svgRef} />
-    </div>
-  );
+  return <svg ref={svgRef} />;
 }
 
 export default App;

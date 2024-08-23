@@ -1,133 +1,143 @@
-internal,name,teammate,opponent
-hydra,Hydra Splatling,0.503940332,0.496285201
-longblaster,Range Blaster,0.510832383,0.5252444
-jimuwiper,Splatana Stamper,0.481370563,0.462379669
-splatscope,Splatterscope,0.472179289,0.496116177
-52gal,.52 Gal,0.515435792,0.496722074
-jetsweeper,Jet Squelcher,0.46982599,0.441994751
-campingshelter,Tenta Brella,0.469897959,0.473767886
-nzap85,N-ZAP '85,0.496391339,0.464202696
-wakaba,Splattershot Jr.,0.524972031,0.491164076
-pablo,Inkbrush,0.524236701,0.481753286
-splatcharger,Splat Charger,0.429082545,0.43627237
-sharp,Splash-o-matic,0.507578281,0.500402191
-variableroller,Flingza Roller,0.508479394,0.484002397
-hissen,Tri-Slosher,0.508402747,0.475450682
-rapid,Rapid Blaster,0.484298983,0.45631068
-squiclean_a,Classic Squiffer,0.44909553,0.439421122
-sshooter,Splattershot,0.523641593,0.495799865
-hotblaster,Blaster,0.53638994,0.51870438
-screwslosher,Sloshing Machine,0.521583749,0.501742656
-liter4k,E-liter 4K,0.47103469,0.465118022
-kugelschreiber,Ballpoint Splatling,0.507067348,0.481670386
-nova,Luna Blaster,0.508833236,0.471346219
-sputtery,Dapple Dualies,0.515013303,0.477237588
-lact450,REEF-LUX 450,0.503713412,0.495758167
-dualsweeper,Dualie Squelchers,0.500674764,0.470694319
-splatroller,Splat Roller,0.504855135,0.510712419
-heroshooter_replica,Hero Shot Replica,0.534006272,0.481892029
-explosher,Explosher,0.494995201,0.501903208
-quadhopper_black,Dark Tetra Dualies,0.533650794,0.488840893
-96gal,.96 Gal,0.492,0.464298276
-maneuver,Splat Dualies,0.510569789,0.481885375
-parashelter,Splat Brella,0.455903272,0.436426117
-liter4k_scope,E-liter 4K Scope,0.494167747,0.51301568
-bold,Disperser,0.523988486,0.522862823
-hokusai,Octobrush,0.529875685,0.504040526
-bucketslosher,Slosher,0.519805546,0.52069225
-tristringer,Tri-Stringer,0.452587735,0.433035395
-carbon,Carbon Roller,0.442207308,0.43620178
-drivewiper,Splatana Wiper,0.531720236,0.493587214
-bottlegeyser,Squeezer,0.498486988,0.490491284
-furo,Bloblobber,0.494545224,0.494613181
-prime,Splattershot Pro,0.495882098,0.432851604
-nautilus47,Nautilus 47,0.513329135,0.486398872
-promodeler_mg,Aerospray MG,0.511561722,0.497636114
-clashblaster,Clash Blaster,0.483323133,0.478678865
-kelvin525,Glooga Dualies,0.528097382,0.4995
-barrelspinner,Heavy Splatling,0.512964699,0.496865076
-rapid_elite,Rapid Blaster Pro,0.458041958,0.412735849
-spygadget,Undercover Brella,0.525883838,0.493281654
-soytuber,Goo Tuber,0.450641383,0.396020843
-splatspinner,Mini Splatling,0.515708072,0.47543646
-h3reelgun,H-3 Nozzlenose,0.418235877,0.417682927
-bamboo14mk1,Bamboozler 14 Mk I,0.480525164,0.448214286
-l3reelgun,L-3 Nozzlenose,0.527421237,0.487449393
-wideroller,Big Swig Roller,0.448137536,0.439936609
-carbon_deco,Carbon Roller Deco,0.483096591,0.464745796
-rpen_5h,Snipewriter 5H,0.467885375,0.447896931
-sputtery_hue,Dapple Dualies Nouveau,0.533799746,0.506686349
-promodeler_rg,Aerospray RG,0.533876863,0.514778325
-nova_neo,Luna Blaster Neo,0.506582556,0.498400984
-sshooter_collabo,Tentatek Splattershot,0.520706756,0.48483637
-splatspinner_collabo,Zink Mini Splatling,0.4890553,0.467932273
-prime_collabo,Forge Splattershot Pro,0.493555191,0.484710178
-spaceshooter,Splattershot Nova,0.461882156,0.43779124
-momiji,Custom Splattershot Jr.,0.497469609,0.488636873
-fincent_hue,Painbrush Nouveau,0.495207668,0.42815759
-bucketslosher_deco,Slosher Deco,0.463815789,0.457814661
-campingshelter_sorella,Tenta Sorella Brella,0.514621849,0.480099502
-nzap89,N-ZAP '89,0.505211047,0.486291644
-screwslosher_neo,Sloshing Machine Neo,0.492392808,0.469092722
-furo_deco,Bloblobber Deco,0.540830946,0.433789954
-sharp_neo,Neo Splash-o-matic,0.521833227,0.493819606
-hissen_hue,Tri-Slosher Nouveau,0.511783532,0.47472863
-moprin,Dread Wringer,0.507859734,0.494822152
-examiner,Heavy Edit Splatling,0.484993614,0.452921474
-jimuwiper_hue,Splatana Stamper Nouveau,0.511255924,0.495444191
-order_shooter_replica,Order Shot Replica,0.553219448,0.453917051
-order_brush_replica,Orderbrush Replica,0.639344262,0.556451613
-pablo_hue,Inkbrush Nouveau,0.53968254,0.483514233
-drivewiper_deco,Splatana Wiper Deco,0.531622365,0.455471865
-quadhopper_white,Light Tetra Dualies,0.53330721,0.481012658
-sblast91,S-BLAST '91,0.477375566,0.447587354
-96gal_deco,.96 Gal Deco,0.524368631,0.485278228
-l3reelgun_d,L-3 Nozzlenose D,0.495952907,0.490831296
-hotblaster_custom,Custom Blaster,0.537941994,0.449182941
-dualsweeper_custom,Custom Dualie Squelchers,0.536306116,0.471917968
-rapid_deco,Rapid Blaster Deco,0.500606061,0.482011447
-order_maneuver_replica,Order Dualie Replicas,0.591346154,0.463601533
-bottlegeyser_foil,Foil Squeezer,0.501858736,0.495766698
-sblast92,S-BLAST '92,0.486783245,0.425965665
-rapid_elite_deco,Rapid Blaster Pro Deco,0.476170392,0.467995508
-splatcharger_collabo,Z+F Splat Charger,0.43559322,0.417553191
-nautilus79,Nautilus 79,0.517520216,0.430272109
-splatroller_collabo,Krak-On Splat Roller,0.499728997,0.458962447
-maneuver_collabo,Enperry Splat Dualies,0.532409215,0.460041337
-fincent,Painbrush,0.510530322,0.443503252
-order_roller_replica,Order Roller Replica,0.539473684,0.547368421
-bold_neo,Neo Sploosh-o-matic,0.522750599,0.482406015
-splatscope_collabo,Z+F Splatterscope,0.48502994,0.499124343
-octoshooter_replica,Octo Shot Replica,0.580851064,0.440823328
-wideroller_collabo,Big Swig Roller Express,0.456771614,0.421736562
-parashelter_sorella,Sorella Brella,0.490613267,0.403660886
-lact450_deco,REEF-LUX 450 Deco,0.531722054,0.475766568
-jetsweeper_custom,Custom Jet Squelcher,0.497586335,0.463641937
-barrelspinner_deco,Heavy Splatling Deco,0.507809524,0.479320988
-hokusai_hue,Octobrush Nouveau,0.531788473,0.477840451
-order_slosher_replica,Order Slosher Replica,0.506410256,0.540697674
-h3reelgun_d,H-3 Nozzlenose D,0.452267303,0.45
-tristringer_collabo,Inkline Tri-Stringer,0.488167053,0.46611091
-spaceshooter_collabo,Annaki Splattershot Nova,0.55417013,0.493263473
-spygadget_sorella,Undercover Sorella Brella,0.52173913,0.462646265
-dynamo_tesla,Gold Dynamo Roller,0.51086351,0.4722764
-clashblaster_neo,Clash Blaster Neo,0.506367804,0.465106199
-order_stringer_replica,Order Stringer Replica,0.590909091,0.425742574
-order_spinner_replica,Order Splatling Replica,0.575,0.497409326
-order_wiper_replica,Order Splatana Replica,0.584795322,0.45229682
-kugelschreiber_hue,Ballpoint Splatling Nouveau,0.507163324,0.475738397
-explosher_custom,Custom Explosher,0.576923077,0.483290488
-liter4k_scope_custom,Custom E-liter 4K Scope,0.526785714,0.517857143
-brella24mk1,Recycled Brella 24 Mk I,0.440397351,0.38292011
-variableroller_foil,Foil Flingza Roller,0.527950311,0.416149068
-order_blaster_replica,Order Blaster Replica,0.575,0.34939759
-gaen_ff,Douser Dualies FF,0.556910569,0.398133748
-soytuber_custom,Custom Goo Tuber,0.475862069,0.449494949
-order_charger_replica,Order Charger Replica,0.532608696,0.385826772
-kelvin525_deco,Glooga Dualies Deco,0.485148515,0.456647399
-rpen_5b,Snipewriter 5B,0.489655172,0.416438356
-52gal_deco,.52 Gal Deco,0.506459948,0.490405117
-liter4k_custom,Custom E-liter 4K,0.51626898,0.456766917
-squiclean_b,New Squiffer,0.490384615,0.350877193
-moprin_d,Dread Wringer D,0.528,0.534351145
-order_shelter_replica,Order Brella Replica,0.5,0.369565217
+Weapon Name,Translated,Enemy Rank,Teammate Rank
+bottlegeyser,Squeezer,0.502842191,0.510147133
+bold,Sploosh-o-matic,0.501686599,0.585654165
+hissen,Tri-Slosher,0.478653037,0.486561631
+sharp_neo,Neo Splash-o-matic,0.500476788,0.493137928
+furo,Bloblobber,0.493830837,0.502929885
+splatroller,Splat Roller,0.487060332,0.530106117
+maneuver_collabo,Enperry Splat Dualies,0.458238421,0.547236292
+quadhopper_black,Dark Tetra Dualies,0.495829409,0.532487866
+order_blaster_replica,Order Blaster Replica,0.5,0.475
+hissen_hue,Tri-Slosher Nouveau,0.492112125,0.496884951
+dualsweeper,Dualie Squelchers,0.487096401,0.488997919
+longblaster,Range Blaster,0.508868944,0.536253171
+sharp,Splash-o-matic,0.506262942,0.483398237
+drivewiper,Splatana Wiper,0.507246377,0.536862893
+fincent_hue,Painbrush Nouveau,0.456924434,0.516084559
+bold_neo,Neo Sploosh-o-matic,0.49377335,0.539861751
+clashblaster,Clash Blaster,0.461007508,0.492858933
+brella24mk2,Recycled Brella 24 Mk II,0.464757709,0.376744186
+sshooter_collabo,Tentatek Splattershot,0.49152791,0.52531716
+prime_collabo,Forge Splattershot Pro,0.486907524,0.525561798
+order_roller_replica,Order Roller Replica,0.514127022,0.502788104
+52gal,.52 Gal,0.49268976,0.539471893
+barrelspinner_deco,Heavy Splatling Deco,0.489989463,0.528289892
+bucketslosher,Slosher,0.524329195,0.519044153
+sblast91,S-BLAST '91,0.472176759,0.445800781
+soytuber,Goo Tuber,0.410958904,0.410414828
+hydra,Hydra Splatling,0.506808369,0.517648381
+campingshelter_sorella,Tenta Sorella Brella,0.509421531,0.482142857
+heroshooter_replica,Hero Shot Replica,0.502354326,0.481577432
+sshooter,Splattershot,0.50410932,0.522031503
+variableroller,Flingza Roller,0.489686334,0.520219328
+splatcharger_collabo,Z+F Splat Charger,0.423000497,0.413446268
+jimuwiper_hue,Splatana Stamper Nouveau,0.484958979,0.482286096
+sputtery_hue,Dapple Dualies Nouveau,0.500031147,0.559504245
+nova_neo,Luna Blaster Neo,0.497645508,0.544105351
+order_wiper_replica,Order Splatana Replica,0.458418891,0.502183406
+liter4k_custom,Custom E-liter 4K,0.456456456,0.450129199
+rapid_deco,Rapid Blaster Deco,0.493761141,0.468221071
+wakaba,Splattershot Jr.,0.505610599,0.497150334
+nautilus47,Nautilus 47,0.505150463,0.462525112
+variableroller_foil,Foil Flingza Roller,0.493292449,0.513846154
+nzap89,N-ZAP '89,0.484130307,0.533243018
+screwslosher_neo,Sloshing Machine Neo,0.489849188,0.463706836
+h3reelgun,H-3 Nozzlenose,0.426428159,0.425269646
+jimuwiper,Splatana Stamper,0.466368169,0.492063492
+furo_deco,Bloblobber Deco,0.47030616,0.469497115
+pablo,Inkbrush,0.488963654,0.499705293
+momiji,Custom Splattershot Jr.,0.499406264,0.517186967
+nzap85,N-ZAP '85,0.47453662,0.498585111
+carbon_deco,Carbon Roller Deco,0.465502125,0.48857868
+kelvin525,Glooga Dualies,0.506063258,0.543013699
+splatscope,Splatterscope,0.475554435,0.50990753
+dynamo_tesla,Gold Dynamo Roller,0.493329148,0.549797336
+moprin,Dread Wringer,0.524222336,0.509868421
+examiner,Heavy Edit Splatling,0.483944479,0.456902246
+promodeler_rg,Aerospray RG,0.505802796,0.5803485
+promodeler_mg,Aerospray MG,0.495316556,0.536464088
+dentalwiper_mint,Mint Decavitator,0.470777727,0.546854942
+furuido,Wellstring V,0.484732824,0.490640394
+order_shooter_replica,Order Shot Replica,0.505419281,0.425249169
+order_brush_replica,Orderbrush Replica,0.48630137,0.499111901
+pablo_hue,Inkbrush Nouveau,0.486454653,0.521382751
+drivewiper_deco,Splatana Wiper Deco,0.483080513,0.511793612
+quadhopper_white,Light Tetra Dualies,0.471961431,0.530339806
+kugelschreiber,Ballpoint Splatling,0.504231947,0.429680224
+l3reelgun,L-3 Nozzlenose,0.525614035,0.48974359
+96gal_deco,.96 Gal Deco,0.519610986,0.482775274
+hokusai_hue,Octobrush Nouveau,0.491548043,0.459619952
+nautilus79,Nautilus 79,0.479691308,0.49334664
+hokusai,Octobrush,0.49370352,0.483188171
+h3reelgun_d,H-3 Nozzlenose D,0.469117647,0.379944802
+prime,Splattershot Pro,0.457964008,0.489721485
+52gal_deco,.52 Gal Deco,0.505090055,0.515625
+sputtery,Dapple Dualies,0.48510522,0.50893887
+explosher_custom,Custom Explosher,0.506731287,0.542609854
+bucketslosher_deco,Slosher Deco,0.457253172,0.493074792
+liter4k_scope,E-liter 4K Scope,0.509396141,0.530730897
+nova,Luna Blaster,0.481267218,0.368394816
+tristringer_collabo,Inkline Tri-Stringer,0.490594059,0.477936963
+bamboo14mk1,Bamboozler 14 Mk I,0.481074481,0.442192691
+splatcharger,Splat Charger,0.431150442,0.448817106
+l3reelgun_d,L-3 Nozzlenose D,0.491975928,0.5
+maneuver,Splat Dualies,0.497535934,0.506483516
+order_slosher_replica,Order Slosher Replica,0.533568905,0.482366325
+spaceshooter_collabo,Annaki Splattershot Nova,0.516616915,0.531924262
+campingshelter,Tenta Brella,0.480746791,0.435410334
+hotblaster_custom,Custom Blaster,0.463643471,0.541115122
+screwslosher,Sloshing Machine,0.524959525,0.500486776
+liter4k,E-liter 4K,0.464836393,0.456977483
+squiclean_a,Classic Squiffer,0.436973123,0.494007083
+hotblaster,Blaster,0.503355705,0.553232675
+longblaster_custom,Custom Range Blaster,0.500470146,0.509556314
+tristringer,Tri-Stringer,0.448771006,0.438064704
+barrelspinner,Heavy Splatling,0.525353543,0.492652395
+rpen_5h,Snipewriter 5H,0.481865285,0.433350622
+dualsweeper_custom,Custom Dualie Squelchers,0.496589359,0.494651163
+bottlegeyser_foil,Foil Squeezer,0.511545293,0.50610687
+order_maneuver_replica,Order Dualie Replicas,0.512735327,0.423346304
+squiclean_b,New Squiffer,0.407227241,0.536259542
+splatroller_collabo,Krak-On Splat Roller,0.462352626,0.541880029
+dentalwiper_sumi,0,0.467934377,0.531754575
+splatspinner_collabo,Zink Mini Splatling,0.474788221,0.527255639
+carbon,Carbon Roller,0.431309904,0.479002625
+kugelschreiber_hue,Ballpoint Splatling Nouveau,0.49509434,0.413734393
+wideroller,Big Swig Roller,0.439937189,0.459962756
+jetsweeper,Jet Squelcher,0.466505068,0.468460648
+lact450,REEF-LUX 450,0.495634921,0.477794925
+sblast92,S-BLAST '92,0.444479595,0.493800146
+parashelter_sorella,Sorella Brella,0.438654354,0.479940565
+rapid_elite_deco,Rapid Blaster Pro Deco,0.485108119,0.44813176
+explosher,Explosher,0.511271341,0.494609487
+96gal,.96 Gal,0.492762186,0.459255979
+rapid_elite,Rapid Blaster Pro,0.454239569,0.382789318
+fincent,Painbrush,0.466617302,0.515134317
+octoshooter_replica,Octo Shot Replica,0.481896141,0.462728551
+splatspinner,Mini Splatling,0.504404568,0.517019667
+parashelter,Splat Brella,0.447816826,0.455938697
+order_charger_replica,Order Charger Replica,0.429787234,0.491836735
+splatscope_collabo,Z+F Splatterscope,0.482093664,0.533103448
+spaceshooter,Splattershot Nova,0.455197133,0.456637168
+hydra_custom,Custom Hydra Splatling,0.532021766,0.48731203
+wideroller_collabo,Big Swig Roller Express,0.431299488,0.484942085
+rapid,Rapid Blaster,0.487532808,0.41808094
+lact450_deco,REEF-LUX 450 Deco,0.500805153,0.515532544
+soytuber_custom,Custom Goo Tuber,0.445151033,0.5
+order_spinner_replica,Order Splatling Replica,0.517657192,0.491341991
+jetsweeper_custom,Custom Jet Squelcher,0.481187506,0.500431655
+spygadget,Undercover Brella,0.5113018,0.507459207
+gaen_ff,Douser Dualies FF,0.447807933,0.516087516
+kelvin525_deco,Glooga Dualies Deco,0.464267866,0.49599466
+examiner_hue,Heavy Edit Splatling Nouveau,0.488842761,0.447066327
+spygadget_sorella,Undercover Sorella Brella,0.49204244,0.496825397
+clashblaster_neo,Clash Blaster Neo,0.473242392,0.517387944
+order_stringer_replica,Order Stringer Replica,0.466523835,0.472627737
+liter4k_scope_custom,Custom E-liter 4K Scope,0.513293944,0.487179487
+furuido_custom,Custom Wellstring V,0.476863299,0.482279693
+moprin_d,Dread Wringer D,0.498489426,0.48880597
+brella24mk1,Recycled Brella 24 Mk I,0.398797595,0.413580247
+bamboo14mk2,Bamboozler 14 Mk II,0.479591837,0.507978723
+rpen_5b,Snipewriter 5B,0.4816,0.46
+gaen_ff_custom,Custom Douser Dualies FF,0.428429423,0.47037037
+order_shelter_replica,Order Brella Replica,0.389908257,0.557142857
