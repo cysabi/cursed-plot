@@ -1,10 +1,9 @@
 import { createEffect } from "solid-js";
-import "./App.css";
 import * as d3 from "d3";
 import weaponsJson from "./assets/weapons.json";
 
-const width = 1920 / 2;
-const height = 1080 / 2;
+const width = 1440;
+const height = 810;
 const margin = 40;
 
 const nameToId = Object.entries(weaponsJson).map(([key, value]) => {
@@ -51,7 +50,7 @@ function App() {
       const svg = d3
         .select(svgRef)
         .attr("viewBox", [0, 0, width, height])
-        .attr("style", "max-width: 100%; height: 100vh");
+        .attr("style", `width: ${width}px; height: ${height}px;`);
       svg
         .append("g")
         .attr("transform", `translate(0,${height - margin})`)
@@ -86,13 +85,13 @@ function App() {
       svg
         .append("g")
         .attr("stroke", "currentColor")
-        .attr("stroke-opacity", 0.1)
         .call((g) =>
           g
             .append("g")
             .selectAll("line")
             .data(x.ticks())
             .join("line")
+            .attr("stroke-opacity", (d) => (d == 0.5 ? 0.5 : 0.1))
             .attr("x1", (d) => 0.5 + x(d))
             .attr("x2", (d) => 0.5 + x(d))
             .attr("y1", margin)
@@ -104,6 +103,7 @@ function App() {
             .selectAll("line")
             .data(y.ticks())
             .join("line")
+            .attr("stroke-opacity", (d) => (d == 0.5 ? 0.5 : 0.1))
             .attr("y1", (d) => 0.5 + y(d))
             .attr("y2", (d) => 0.5 + y(d))
             .attr("x1", margin)
@@ -116,15 +116,27 @@ function App() {
         .selectAll("image")
         .data(data)
         .join("image")
-        .attr("x", (d) => x(d.x))
-        .attr("y", (d) => y(d.y))
-        .attr("height", "24px")
-        .attr("width", "24px")
+        .attr("x", (d) => x(d.x) - 16)
+        .attr("y", (d) => y(d.y) - 16)
+        .attr("height", "32px")
+        .attr("width", "32px")
         .attr("href", (d) => d.img);
     });
   });
 
-  return <svg ref={svgRef} />;
+  return (
+    <div
+      style={{
+        width: "100%",
+        margin: "auto",
+        display: "flex",
+        "align-items": "center",
+        "justify-content": "center",
+      }}
+    >
+      <svg ref={svgRef} />
+    </div>
+  );
 }
 
 export default App;
