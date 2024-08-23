@@ -71,7 +71,7 @@ function App() {
           .attr("y", margin - 4)
           .attr("fill", "currentColor")
           .attr("text-anchor", "end")
-          .text("Teammate % →")
+          .text("Teammate Win %")
       );
 
     svg
@@ -86,7 +86,7 @@ function App() {
           .attr("y", 10)
           .attr("fill", "currentColor")
           .attr("text-anchor", "start")
-          .text("↑ Opponent %")
+          .text("Enemy Win %")
       );
 
     // Create the grid.
